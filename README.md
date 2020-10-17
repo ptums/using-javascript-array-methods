@@ -2,7 +2,7 @@
 
 This site is a simple demonstration on how to use ```map()``` and ```forEach()``` methods in javascript. 
 
-[Live Site](https://ptums.github.io/using-javascript-map-foreach-method/)
+### [Live Site](https://ptums.github.io/using-javascript-map-foreach-method/)
 
 ## Motivation
 
