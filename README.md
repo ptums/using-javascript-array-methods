@@ -26,7 +26,7 @@ Fork this repo, open the repository in your favorite code editor and get hacking
 
 ## Contribute
 
-1. Fork it (https://github.com/ptums/using-javascript-array-methods/fork)
+1. [Fork it](https://github.com/ptums/using-javascript-array-methods/fork)
 2. Create your feature branch (git checkout -b feature/fooBar)
 3. Commit your changes (git commit -am 'Add some fooBar')
 4. Push to the branch (git push origin feature/fooBar)
