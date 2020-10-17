@@ -1,6 +1,6 @@
-# Comparing Array Methods in JavaScript
+# Using JavaScript Array Methods
 
-This is a simple demonstration on how to use ```map()``` and ```forEach()``` methods in javascript. and explaination of how they work, and a comparission between these two array methods.
+This site is a simple demonstration on how to use ```map()``` and ```forEach()``` methods in javascript. 
 
 [Live Site](https://ptums.github.io/using-javascript-map-foreach-method/)
 
@@ -22,8 +22,12 @@ This was confusing because I though these methods served the same purpose. I dec
 
 ## How To Use
 
-This is a basic HTML document, so feel free to open it up in your favorite code editor, create your own branch, and start modifying.
+Forking this repo, feel free to open it in your favorite code editor and start coding away!
 
 ## Contribute
 
-To Do: https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/setting-guidelines-for-repository-contributors
+1. Fork it (https://github.com/ptums/using-javascript-array-methods/fork)
+2. Create your feature branch (git checkout -b feature/fooBar)
+3. Commit your changes (git commit -am 'Add some fooBar')
+4. Push to the branch (git push origin feature/fooBar)
+5. Create a new Pull Request
