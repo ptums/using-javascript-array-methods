@@ -6,9 +6,9 @@ This site is a simple demonstration on how to use ```map()``` and ```forEach()``
 
 ## Motivation
 
-When I first used [React.js](https://reactjs.org), I discovered the javascript method ```map()``` to iterate over data in JSX. Having some previous experience writing functional code in JavaScript I already knew about the ```forEach()``` method.  At first glance, I thought they served the same purpose, but when I tried using ```forEach()``` in JSX it spit out a bunch of errors.
+When I first used [React.js](https://reactjs.org), I discovered the javascript method ```map()``` to iterate over data in JSX. Having some previous experience writing functional code in JavaScript I already knew about ```forEach()```.  At first glance, I thought they served the same purpose, but when I tried using ```forEach()``` in JSX it spit out a bunch of errors.
 
-This was confusing because I though these methods served the same purpose. I decided to do a deep dive in how these methods work and report my results in this website and an article I wrote [The power of the map method](https://medium.com/@petertumulty/the-power-of-the-map-method-4db6b1a73655)
+This set me on a journey to take a deep dive into understanding the nature of these methods. This website is sublemental material to my article written on **Medium.com** [The power of the map method](https://medium.com/@petertumulty/the-power-of-the-map-method-4db6b1a73655) on what I discovered.
 
 ## Build status
 
