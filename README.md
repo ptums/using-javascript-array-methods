@@ -16,10 +16,15 @@ This was confusing because I though these methods served the same purpose. I dec
 
 ## Installation
 
+``` 
+  git clone https://github.com/ptums/using-javascript-map-foreach-method.git
 
+```
 
+## How To Use
 
+This is a basic HTML document, so feel free to open it up in your favorite code editor, create your own branch, and start modifying.
 
+## Contribute
 
-
-This code compares how **.map** and **.forEach** handle the same set of data. The intention of comparison is to discover how .map works on a deeper level. I wrote a full article detailing what I discovered on Medium.com. [Click here to read the full article](https://medium.com/@petertumulty/the-power-of-the-map-method-4db6b1a73655) 
+To Do: https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/setting-guidelines-for-repository-contributors
