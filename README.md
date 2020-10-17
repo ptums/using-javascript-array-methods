@@ -22,7 +22,7 @@ This set me on a journey to take a deep dive into understanding the nature of th
 
 ## How To Use
 
-Forking this repo, feel free to open it in your favorite code editor and start coding away!
+Fork this repo, open the repository in your favorite code editor and get hacking!
 
 ## Contribute
 
