@@ -2,7 +2,7 @@
 
 This is a simple demonstration on how to use ```map()``` and ```forEach()``` methods in javascript. and explaination of how they work, and a comparission between these two array methods.
 
-**This is a live website:** [https://ptums.github.io/using-javascript-map-foreach-method/](https://ptums.github.io/using-javascript-map-foreach-method/)
+[Live Site](https://ptums.github.io/using-javascript-map-foreach-method/)
 
 ## Motivation
 
@@ -18,7 +18,6 @@ This was confusing because I though these methods served the same purpose. I dec
 
 ``` 
   git clone https://github.com/ptums/using-javascript-map-foreach-method.git
-
 ```
 
 ## How To Use
