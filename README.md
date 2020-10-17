@@ -30,6 +30,6 @@ Fork this repo, open the repository in your favorite code editor and get hacking
 
 1. [Fork it](https://github.com/ptums/using-javascript-array-methods/fork)
 2. Create your feature branch (git checkout -b feature/fooBar)
-3. Commit your changes (git commit -am 'Add some fooBar')
+3. Commit your changes (git commit -am 'Add some fooBar'). Please use [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/) when writing commit messages.
 4. Push to the branch (git push origin feature/fooBar)
 5. Create a new Pull Request
