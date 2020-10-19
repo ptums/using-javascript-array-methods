@@ -2,7 +2,7 @@
 
 This site is a simple demonstration on how to use ```map()``` and ```forEach()``` methods in javascript. 
 
-Contributions are welcome! Please add yours!
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
 ### [Live Site](https://ptums.github.io/using-javascript-array-methods/)
 
