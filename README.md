@@ -2,6 +2,8 @@
 
 This site is a simple demonstration on how to use ```map()``` and ```forEach()``` methods in javascript. 
 
+Contributions are welcome! Please add yours!
+
 ### [Live Site](https://ptums.github.io/using-javascript-array-methods/)
 
 ## Motivation
