@@ -4,42 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Array Methods in JavaScript</title>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: Trebuchet MS;
-        display:flex;
-        flex-direction: column;
-        text-align: center;
-        background-color:#F2C166;
-      }
-      header, main, footer {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      h2 {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        max-width: 900px;
-      }
-
-      h1, h2, h3, p {
-        color:#A60321;
-      }
-
-      hr {
-        background-color:#A60321;
-        border: 0px;
-        height: 2.3px;
-        border-radius: 3px;
-      }
-
-
-    </style>
+    <link rel=stylesheet href="assets/css/style.css" />
   </head>
   <body>
     <header>
@@ -47,33 +12,31 @@
       <hr />
     </header>
     <main>
-      <h2>If this is the first you are reading about these array methods. Let me give you a quick defintion of each of these methods and their purpose, before we dig a little deeper.</h2>
-      <br />
-      <br />
-      <h2 style="text-align: left;">From <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">The Mozilla Documentation</a>, <span class="seoSummary">The <code><strong>map()</strong></code> method <strong>creates a new array</strong> populated with the results of calling a provided function on every element in the calling array.</span></h2>
-      <br />
-      <h2 style="text-align: left;">From <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">The Mozilla Documentation</a>, <span>The <code><strong>forEach()</strong></code> method executes a provided function once for each array element.</span></h2>
-      <br />
-      <br />
+      <h2>If this is the first you are reading about these array methods. Let me give you a quick definition of each of these methods and their purpose, before we dig a little deeper.</h2>
+
+      <h2>From <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">The Mozilla Documentation</a>, <span class="seoSummary">The <code><strong>map()</strong></code> method <strong>creates a new array</strong> populated with the results of calling a provided function on every element in the calling array.</span></h2>
+
+      <h2>From <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">The Mozilla Documentation</a>, <span>The <code><strong>forEach()</strong></code> method executes a provided function once for each array element.</span></h2>
+
       <h2>These definitions aren't great, simply put both these <u>methods execute a call back function on each item in an array.</u></h2>
-      <br />
+
       <h2> So, to understand the mechanics of these array methods we start first have to start with an array.</h2>
       <iframe width="100%" height="100" src="//jsfiddle.net/ptums/09we13qd/embedded/js/dark" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-      <br />
+
      <h2> Now let's run each method on the array as followed...</h2>
-     <br />
+
      <h2> Here's the <code><strong>map()</strong></code> method in action</h2>
      <iframe width="100%" height="400" src="//jsfiddle.net/ptums/awygf57m/34/embedded/js/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-     <br />
+
      <h2> Here's the <code><strong>forEach()</strong></code> method in action</h2>
      <iframe width="100%" height="400" src="//jsfiddle.net/ptums/qkowza93/7/embedded/js/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
      <h2>Upon basic execution, both <code><strong>map()</strong></code> and <code><strong>forEach()</strong></code> return the same results and perform the same task.</h2>
-     <br />
+
 
      <h2>Now it's time to go a little deeper...</h2>
-     <br />
+
      <h2>So both both <code><strong>map()</strong></code> and <code><strong>forEach()</strong></code> provide three parameter variables in their call back function. I've named them <code>item, index, array</code>, but feel free to give them any name you <small><u>(pro tip: refer to the MDN documentation for the proper naming convetions)</u></small>.</h2>
      <h2>We've seen the <code>item</code> variable in action, now lets look at the <code>index</code> variable for these methods.</h2>
 
@@ -83,7 +46,7 @@
 
      <h2> And, here's the <code><strong>forEach()</strong></code> method in action returing it's <code>index</code> variable parameter</h2>
       <iframe width="100%" height="400" src="//jsfiddle.net/ptums/fuwdhokj/5/embedded/js/dark" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-     <br />
+
      <h2>Same results...</h2>
      <h2> Here's the <code><strong>map()</strong></code> method in action returing it's <code>array</code> variable parameter</h2>
      <iframe width="100%" height="400" src="//jsfiddle.net/ptums/L3xjqbtd/1/embedded/js,css/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
@@ -91,10 +54,8 @@
      <h2> And, here's the <code><strong>forEach()</strong></code> method in action returing it's <code>array</code> variable parameter</h2>
      <iframe width="100%" height="400" src="//jsfiddle.net/ptums/z0d5arfe/3/embedded/js,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
      <h2>Again, they return the same results...</h2>
-     <h2>Say, what's going on here? Why do we have two methods that so far do exactly the same thing?</h2>
-     <br />
      <h2>Let's keep digging...</h2>
-     <br />
+
      <h2>At this point, I'll say about these methods its not what they do that makes them different, but its how they are used that seperates them.</h2>
 
      <h2>Let's explore</h2>
@@ -116,9 +77,9 @@
      <h2>The reason <code><strong>forEach()</strong></code> returns <code>undefined</code> when set to a variable is because it executes a call back once on each item to an array.</h2>
      <h2>So there is a conflict of usage when setting that callback execution to a variable. The browser doesn't know how to interpret one variable set to the results of a callback on each item. </h2>
      <h2>Unlike  <code><strong>forEach()</strong></code>, the  <code><strong>map()</strong></code> method creates a new array on execution, so setting it to a variable will simply return the items recreated as a new array.</h2>
-     <h2>As of right now, that's all I have to say about these array methods by making a comparission I hope I've demostrated how they function and there purpose on a deeper level.</h2>
+     <h2>As of right now, that's all I have to say about these array methods by making a comparision I hope I've demonstrated how they function and their purpose on a deeper level.</h2>
      <h2>If you have any question feel free to <a href="https://github.com/ptums/using-javascript-map-foreach-method">make a pull request</a> on this repo and commit your questions.</h2>
-     <h2>This site is also suplemental material for an article I wrote on the subject called <a href="https://medium.com/@petertumulty/the-power-of-the-map-method-4db6b1a73655">The power of the map method
+     <h2>This site is also supplemental material for an article I wrote on the subject called <a href="https://medium.com/@petertumulty/the-power-of-the-map-method-4db6b1a73655">The power of the map method.
      </a></h2>
      <br />
     </main>
